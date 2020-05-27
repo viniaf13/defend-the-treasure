@@ -412,6 +412,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2647bc8923af954799edac855ec0360, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  secondsOnSplashScreen: 3
 --- !u!4 &602555624
 Transform:
   m_ObjectHideFlags: 0
@@ -437,7 +438,7 @@ GameObject:
   - component: {fileID: 744508311}
   - component: {fileID: 744508312}
   m_Layer: 0
-  m_Name: Load Sound
+  m_Name: Scene Sound
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
