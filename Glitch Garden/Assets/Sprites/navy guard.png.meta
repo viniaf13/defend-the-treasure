@@ -1,0 +1,632 @@
+fileFormatVersion: 2
+guid: 2ff91a13dcfbf3c47875016f3b5cfa44
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1653886801804371729
+    second: navy guard transparent_0
+  - first:
+      213: 3042019104087378384
+    second: navy guard transparent_1
+  - first:
+      213: -5228088887831042805
+    second: navy guard transparent_2
+  - first:
+      213: -1818805657297013323
+    second: navy guard transparent_3
+  - first:
+      213: -234308950403849130
+    second: navy guard transparent_4
+  - first:
+      213: 1464382936519934830
+    second: navy guard transparent_5
+  - first:
+      213: 4635078078033061380
+    second: navy guard transparent_6
+  - first:
+      213: -6897901724697050606
+    second: navy guard transparent_7
+  - first:
+      213: -3310915515250957608
+    second: navy guard transparent_8
+  - first:
+      213: 8814058344497299706
+    second: navy guard transparent_9
+  - first:
+      213: -3755888917880632284
+    second: navy guard transparent_10
+  - first:
+      213: -957603294327868982
+    second: navy guard transparent_11
+  - first:
+      213: 3398728429430506239
+    second: navy guard transparent_12
+  - first:
+      213: -8138062591122697473
+    second: navy guard transparent_13
+  - first:
+      213: 189124221806297071
+    second: navy guard transparent_14
+  - first:
+      213: -4392366637788331816
+    second: navy guard transparent_15
+  - first:
+      213: -7456077630870780226
+    second: navy guard transparent_16
+  - first:
+      213: 23865383394621519
+    second: navy guard transparent_17
+  - first:
+      213: 3576387569314483677
+    second: navy guard transparent_18
+  - first:
+      213: 7415771409908005815
+    second: navy guard_0
+  - first:
+      213: -6588317358047923886
+    second: navy guard_1
+  - first:
+      213: -8129593673739540252
+    second: navy guard_2
+  - first:
+      213: 8756613551800870924
+    second: navy guard_3
+  - first:
+      213: -6450644686194044340
+    second: navy guard_4
+  - first:
+      213: -1960289657747731911
+    second: navy guard_5
+  - first:
+      213: -2456876435267073760
+    second: navy guard_6
+  - first:
+      213: -3824090705066617711
+    second: navy guard_7
+  - first:
+      213: -206822463466481115
+    second: navy guard_8
+  - first:
+      213: -8259102543976089336
+    second: navy guard_9
+  - first:
+      213: -7234578111622594066
+    second: navy guard_10
+  - first:
+      213: -6488336649187283220
+    second: navy guard_11
+  - first:
+      213: -5955430543595195386
+    second: navy guard_12
+  - first:
+      213: 8848479333087582315
+    second: navy guard_13
+  - first:
+      213: 5886869221832179780
+    second: navy guard_14
+  - first:
+      213: -5967835715873702806
+    second: navy guard_15
+  - first:
+      213: -3950968469184558552
+    second: navy guard_16
+  - first:
+      213: 4916390771329010697
+    second: navy guard_17
+  - first:
+      213: -6108710013953541074
+    second: navy guard_18
+  - first:
+      213: 965993389782413231
+    second: navy guard_19
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: navy guard_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 418
+        width: 43
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bb701f8ecc1ae660800000000000000
+      internalID: 7415771409908005815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: navy guard_1
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 419
+        width: 43
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 251730ee4489194a0800000000000000
+      internalID: -6588317358047923886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: navy guard_2
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 418
+        width: 43
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e8ed7c40a1ed2f80800000000000000
+      internalID: -8129593673739540252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: navy guard_3
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 342
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c08667e71adb58970800000000000000
+      internalID: 8756613551800870924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: navy guard_4
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 342
+        width: 33
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c42942bb5d4ba76a0800000000000000
+      internalID: -6450644686194044340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: navy guard_5
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 342
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93a031d31f6abc4e0800000000000000
+      internalID: -1960289657747731911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: navy guard_6
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 341
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 029c0e236eb67edd0800000000000000
+      internalID: -2456876435267073760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: navy guard_7
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 341
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19491afb3c91eeac0800000000000000
+      internalID: -3824090705066617711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: navy guard_8
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 259
+        width: 30
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52a5285b018312df0800000000000000
+      internalID: -206822463466481115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: navy guard_9
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 260
+        width: 31
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 809b7ceaef5c16d80800000000000000
+      internalID: -8259102543976089336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: navy guard_10
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 260
+        width: 36
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee14be4b98d999b90800000000000000
+      internalID: -7234578111622594066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: navy guard_11
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 258
+        width: 27
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cee2b0ab13cc4f5a0800000000000000
+      internalID: -6488336649187283220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: navy guard_12
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 184
+        width: 43
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6043f7c497f0a5da0800000000000000
+      internalID: -5955430543595195386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: navy guard_13
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 183
+        width: 45
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b68121b721d1cca70800000000000000
+      internalID: 8848479333087582315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: navy guard_14
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 190
+        width: 55
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 440cc760e5c52b150800000000000000
+      internalID: 5886869221832179780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: navy guard_15
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 189
+        width: 48
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6c757d090dfd2da0800000000000000
+      internalID: -5967835715873702806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: navy guard_16
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 114
+        width: 43
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82a4c734c175b29c0800000000000000
+      internalID: -3950968469184558552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: navy guard_17
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 114
+        width: 45
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90c031ebb578a3440800000000000000
+      internalID: 4916390771329010697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: navy guard_18
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 114
+        width: 51
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2c7d6e8b90893ba0800000000000000
+      internalID: -6108710013953541074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
