@@ -1,0 +1,1052 @@
+fileFormatVersion: 2
+guid: dc90e26801c7ebd4b88a07a81233ee64
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2453007738300285996
+    second: usopp transparent_0
+  - first:
+      213: 6737268621551560133
+    second: usopp transparent_1
+  - first:
+      213: -6938304680454425800
+    second: usopp transparent_2
+  - first:
+      213: 898451094412051506
+    second: usopp transparent_3
+  - first:
+      213: 6173399524283060817
+    second: usopp transparent_4
+  - first:
+      213: 7690158860208020961
+    second: usopp transparent_5
+  - first:
+      213: 7308912953334244662
+    second: usopp transparent_6
+  - first:
+      213: -3069391603964511677
+    second: usopp transparent_7
+  - first:
+      213: -5074732339814243035
+    second: usopp transparent_8
+  - first:
+      213: -140559013803256526
+    second: usopp transparent_9
+  - first:
+      213: 8773180019632889837
+    second: usopp transparent_10
+  - first:
+      213: -7999398759347218682
+    second: usopp transparent_11
+  - first:
+      213: 1987526912308199160
+    second: usopp transparent_12
+  - first:
+      213: -6459549442200168221
+    second: usopp transparent_13
+  - first:
+      213: -4688145271308412858
+    second: usopp transparent_14
+  - first:
+      213: -1380983247775150867
+    second: usopp transparent_15
+  - first:
+      213: 5176811647167803386
+    second: usopp transparent_16
+  - first:
+      213: 5751152723373268269
+    second: usopp transparent_17
+  - first:
+      213: -2688629997325407702
+    second: usopp transparent_18
+  - first:
+      213: -8066736471642753738
+    second: usopp transparent_19
+  - first:
+      213: -191778533225106441
+    second: usopp transparent_20
+  - first:
+      213: 208042178973955547
+    second: usopp transparent_21
+  - first:
+      213: -2052258696220896222
+    second: usopp transparent_22
+  - first:
+      213: 2043451889342871071
+    second: usopp transparent_23
+  - first:
+      213: 1151959499541256249
+    second: usopp transparent_24
+  - first:
+      213: -7469905578876148312
+    second: usopp transparent_25
+  - first:
+      213: -2944197865181457198
+    second: usopp transparent_26
+  - first:
+      213: 7663524791070059442
+    second: usopp transparent_27
+  - first:
+      213: -5285228260798453838
+    second: usopp transparent_28
+  - first:
+      213: 1947994154077340723
+    second: usopp transparent_29
+  - first:
+      213: 4838077185110826640
+    second: usopp transparent_30
+  - first:
+      213: 953090636505514194
+    second: usopp transparent_31
+  - first:
+      213: -7675495773015506086
+    second: usopp transparent_32
+  - first:
+      213: 495812392531038484
+    second: usopp transparent_33
+  - first:
+      213: -2476568027373108823
+    second: usopp transparent_34
+  - first:
+      213: -6556893150677020072
+    second: usopp transparent_35
+  - first:
+      213: -8911843940893892549
+    second: usopp transparent_36
+  - first:
+      213: -4914041020553565351
+    second: usopp transparent_37
+  - first:
+      213: -5470052851326901993
+    second: usopp transparent_38
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: usopp transparent_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 403
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dbb357657a25fdd0800000000000000
+      internalID: -2453007738300285996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: usopp transparent_1
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 355
+        width: 35
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c567ff9d169f7d50800000000000000
+      internalID: 6737268621551560133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: usopp transparent_2
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 355
+        width: 34
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 833751267a036bf90800000000000000
+      internalID: -6938304680454425800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: usopp transparent_3
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 355
+        width: 40
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 234cd7a9280f77c00800000000000000
+      internalID: 898451094412051506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: usopp transparent_4
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 355
+        width: 43
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1521575c8225ca550800000000000000
+      internalID: 6173399524283060817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: usopp transparent_5
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 355
+        width: 47
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ed95093dbee8ba60800000000000000
+      internalID: 7690158860208020961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: usopp transparent_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 299
+        width: 52
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6352db55b997e6560800000000000000
+      internalID: 7308912953334244662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: usopp transparent_7
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 336
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34af02939945765d0800000000000000
+      internalID: -3069391603964511677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: usopp transparent_8
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 299
+        width: 51
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5256f23f2dde299b0800000000000000
+      internalID: -5074732339814243035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: usopp transparent_9
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 299
+        width: 47
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23517485252ac0ef0800000000000000
+      internalID: -140559013803256526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: usopp transparent_10
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 299
+        width: 47
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: defd5ccdeb890c970800000000000000
+      internalID: 8773180019632889837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: usopp transparent_11
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 316
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6079864063d6cf090800000000000000
+      internalID: -7999398759347218682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: usopp transparent_12
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 315
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8feb8a5423d159b10800000000000000
+      internalID: 1987526912308199160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: usopp transparent_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 243
+        width: 52
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e81698a1021b56a0800000000000000
+      internalID: -6459549442200168221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: usopp transparent_14
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 280
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6481c30f6bc50feb0800000000000000
+      internalID: -4688145271308412858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: usopp transparent_15
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 243
+        width: 51
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: decc89b8d03c5dce0800000000000000
+      internalID: -1380983247775150867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: usopp transparent_16
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 243
+        width: 47
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: affaa82e3cab7d740800000000000000
+      internalID: 5176811647167803386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: usopp transparent_17
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 243
+        width: 47
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2d1fa55ee230df40800000000000000
+      internalID: 5751152723373268269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: usopp transparent_18
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 243
+        width: 47
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2aa5fc234110bad0800000000000000
+      internalID: -2688629997325407702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: usopp transparent_19
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 192
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 635bb0f1be13d0090800000000000000
+      internalID: -8066736471642753738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: usopp transparent_20
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 187
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f3729ba07aa65df0800000000000000
+      internalID: -191778533225106441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: usopp transparent_21
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 187
+        width: 33
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd57a00724d13e200800000000000000
+      internalID: 208042178973955547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: usopp transparent_22
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 191
+        width: 40
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2241c80d699e483e0800000000000000
+      internalID: -2052258696220896222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: usopp transparent_23
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 188
+        width: 39
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f16f1ebaaaccb5c10800000000000000
+      internalID: 2043451889342871071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: usopp transparent_24
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 188
+        width: 34
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9381bcdbf059cff00800000000000000
+      internalID: 1151959499541256249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: usopp transparent_25
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 123
+        width: 21
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a5e0690470955890800000000000000
+      internalID: -7469905578876148312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: usopp transparent_26
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 123
+        width: 21
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d4556104ab1427d0800000000000000
+      internalID: -2944197865181457198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: usopp transparent_27
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 127
+        width: 43
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bb6123c13f4a5a60800000000000000
+      internalID: 7663524791070059442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: usopp transparent_28
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 123
+        width: 21
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b7a04e26e817a6b0800000000000000
+      internalID: -5285228260798453838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: usopp transparent_29
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 123
+        width: 35
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 334415abc5aa80b10800000000000000
+      internalID: 1947994154077340723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: usopp transparent_30
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 123
+        width: 27
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09ed37e019d442340800000000000000
+      internalID: 4838077185110826640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: usopp transparent_31
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 123
+        width: 27
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d089ab52ee0a3d00800000000000000
+      internalID: 953090636505514194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: usopp transparent_32
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 60
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a53066ec2492b7590800000000000000
+      internalID: -7675495773015506086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: usopp transparent_33
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 60
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4119c0c7eba71e600800000000000000
+      internalID: 495812392531038484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: usopp transparent_34
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 60
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a10652208671add0800000000000000
+      internalID: -2476568027373108823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: usopp transparent_35
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 60
+        width: 30
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85254bb5b6c3105a0800000000000000
+      internalID: -6556893150677020072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: usopp transparent_36
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 71
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b306d491725c25480800000000000000
+      internalID: -8911843940893892549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: usopp transparent_37
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 71
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95be43e3ab1ddcbb0800000000000000
+      internalID: -4914041020553565351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: usopp transparent_38
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 164
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7112c0ec9e77614b0800000000000000
+      internalID: -5470052851326901993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
