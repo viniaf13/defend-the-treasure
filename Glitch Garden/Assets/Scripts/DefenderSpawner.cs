@@ -7,21 +7,9 @@ public class DefenderSpawner : MonoBehaviour
 {
     [SerializeField] Defender defender = default;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-       
-    }
-
     private void OnMouseDown()
     {
-        Vector2 mouseClick = GetSquareClicked();
+        Vector2 mouseClick = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         SpawnDefender(mouseClick);
     }
 
@@ -30,10 +18,4 @@ public class DefenderSpawner : MonoBehaviour
         Defender newDefender = Instantiate(defender, defenderPosition, Quaternion.identity) as Defender;
     }
 
-    private Vector2 GetSquareClicked()
-    {
-        Vector2 clickPos = new Vector2(Input.mousePosition.x, Input.mousePosition.y);
-        Vector2 worldPos = Camera.main.ScreenToWorldPoint(clickPos);
-        return worldPos;
-    }
 }
