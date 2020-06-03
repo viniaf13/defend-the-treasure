@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 7767240104626232738}
   - component: {fileID: 2298446941845892353}
   - component: {fileID: 5228393672666841187}
+  - component: {fileID: -4990152054361017823}
+  - component: {fileID: 2008657490}
   m_Layer: 0
   m_Name: Usopp Projectile
   m_TagString: Untagged
@@ -95,4 +97,42 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3fabb9581cec7484cafd456de0ef405b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  projectileSpeed: 5
+  speed: 5
+  damage: 50
+--- !u!58 &-4990152054361017823
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1098098262139561153}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.03
+--- !u!50 &2008657490
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1098098262139561153}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0

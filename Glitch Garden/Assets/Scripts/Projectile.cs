@@ -1,19 +1,25 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Security.Cryptography;
 using UnityEngine;
 
 public class Projectile : MonoBehaviour
 {
-    [SerializeField] float projectileSpeed = 1f;
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
+    [SerializeField] float speed = 1f;
+    [SerializeField] float damage = 50f;
 
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(Vector2.right * projectileSpeed * Time.deltaTime);
+        transform.Translate(Vector2.right * speed * Time.deltaTime);
+    }
+
+    private void OnTriggerEnter2D(Collider2D collider)
+    {
+        if ((collider.GetComponent<Attacker>()) && collider.GetComponent<Health>())
+        {
+            collider.GetComponent<Health>().DealDamage(damage);
+            Destroy(gameObject);
+        }
     }
 }
