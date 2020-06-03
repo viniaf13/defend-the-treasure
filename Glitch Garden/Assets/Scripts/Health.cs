@@ -6,21 +6,21 @@ using UnityEngine;
 public class Health : MonoBehaviour
 {
     [SerializeField] float characterHealth = 100f;
-    [SerializeField] int deathDelay = 2;
+    [SerializeField] float deathDelay = 2f;
 
-    private Animator anim = default;
+    private Animator animator = default;
 
     private void Start()
     {
-        anim = GetComponent<Animator>();   
+        animator = GetComponent<Animator>();   
     }
 
     private IEnumerator Die()
     {
-        if (anim != null)
+        if (animator != null)
         {
-            anim.SetTrigger("Death");
-            yield return new WaitForSeconds(2);
+            animator.SetTrigger("Death");
+            yield return new WaitForSeconds(deathDelay);
             Destroy(gameObject);
         }
 

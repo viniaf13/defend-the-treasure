@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Attacker : MonoBehaviour
+public class Enemy : MonoBehaviour
 {
     [Range(0f,2f)][SerializeField] float moveSpeed = 1f;
 
