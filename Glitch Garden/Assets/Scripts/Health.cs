@@ -6,23 +6,33 @@ using UnityEngine;
 public class Health : MonoBehaviour
 {
     [SerializeField] float characterHealth = 100f;
+    [SerializeField] int deathDelay = 2;
 
-    void Update()
+    private Animator anim = default;
+
+    private void Start()
     {
-        if (characterHealth <= 0)
-        {
-            Die();
-        }
+        anim = GetComponent<Animator>();   
     }
 
-    private void Die()
+    private IEnumerator Die()
     {
-        Destroy(gameObject);
+        if (anim != null)
+        {
+            anim.SetTrigger("Death");
+            yield return new WaitForSeconds(2);
+            Destroy(gameObject);
+        }
+
     }
 
     public void DealDamage(float damage)
     {
         characterHealth -= damage;
+        if (characterHealth <= 0)
+        {
+            StartCoroutine(Die());
+        }
     }
 
 }

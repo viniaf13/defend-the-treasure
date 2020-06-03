@@ -153,6 +153,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterHealth: 100
+  deathDelay: 2
 --- !u!61 &727161655
 BoxCollider2D:
   m_ObjectHideFlags: 0
