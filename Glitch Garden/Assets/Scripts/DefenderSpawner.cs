@@ -10,7 +10,9 @@ public class DefenderSpawner : MonoBehaviour
     private void OnMouseDown()
     {
         Vector2 mouseClick = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        SpawnDefender(mouseClick);
+        Vector2 snappedClick = new Vector2 (Mathf.RoundToInt(mouseClick.x),
+                                            Mathf.RoundToInt(mouseClick.y));
+        SpawnDefender(snappedClick);
     }
 
     private void SpawnDefender(Vector2 defenderPosition)
