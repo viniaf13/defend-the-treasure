@@ -4,8 +4,10 @@ using UnityEngine;
 
 public class DefenderButton : MonoBehaviour
 {
+    [SerializeField] Defender defenderPrefab = default;
     [SerializeField] Color32 unselectedColor = new Color32(87, 56, 56, 255);
 
+    //Highlight the button selected
     private void OnMouseDown()
     {
         DefenderButton[] buttons = FindObjectsOfType<DefenderButton>();
@@ -15,6 +17,8 @@ public class DefenderButton : MonoBehaviour
             button.GetComponent<SpriteRenderer>().color = unselectedColor;
         }
         GetComponent<SpriteRenderer>().color = Color.white;
+
+        FindObjectOfType<DefenderSpawner>().SetSelectedDefender(defenderPrefab);
     }
 
 }
