@@ -9,6 +9,7 @@ public class DefenderSpawner : MonoBehaviour
 
     private void OnMouseDown()
     {
+        //Get mouse click pos and snaps to grid
         Vector2 mouseClick = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         Vector2 snappedClick = new Vector2 (Mathf.RoundToInt(mouseClick.x),
                                             Mathf.RoundToInt(mouseClick.y));
