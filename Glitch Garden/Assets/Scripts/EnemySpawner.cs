@@ -14,7 +14,9 @@ public class EnemySpawner : MonoBehaviour
         while (keepSpawning)
         {
             yield return new WaitForSeconds(Random.Range(minSpawnDelay, maxSpawnDelay));
-            Instantiate(enemyPrefab, transform.position, Quaternion.identity);
+            Enemy newEnemy = Instantiate
+                (enemyPrefab, transform.position, Quaternion.identity) as Enemy;
+            newEnemy.transform.parent = transform;
         }
         
     }

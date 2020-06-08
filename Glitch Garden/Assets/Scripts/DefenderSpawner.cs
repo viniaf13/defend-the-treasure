@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UIElements;
@@ -8,6 +9,13 @@ public class DefenderSpawner : MonoBehaviour
     private Defender defender = default;
     [SerializeField] List <Defender> defendersSpawned = default;
 
+    //Cached reference
+    ResourceDisplay resourcePool = default;
+
+    private void Start()
+    {
+        resourcePool = FindObjectOfType<ResourceDisplay>();
+    }
 
     private void OnMouseDown()
     {
@@ -18,7 +26,7 @@ public class DefenderSpawner : MonoBehaviour
         Vector2 snappedClick = new Vector2 (Mathf.RoundToInt(mouseClick.x),
                                             Mathf.RoundToInt(mouseClick.y));
 
-        if (IsSquareEmpty(snappedClick))
+        if (IsSquareEmpty(snappedClick) && HasEnoughResources())
         {
             SpawnDefender(snappedClick);
         }
@@ -26,10 +34,20 @@ public class DefenderSpawner : MonoBehaviour
     }
 
     private void SpawnDefender(Vector2 defenderPosition)
-    {
+    { 
         Defender newDefender = Instantiate(defender, defenderPosition, Quaternion.identity) as Defender;
         defendersSpawned.Add(newDefender);
+        resourcePool.SpendResources(defender.GetCost());
     }
+
+    //Check if player has enough resources for the defender
+    private bool HasEnoughResources()
+    {
+        int currentResource = resourcePool.GetTotalResources();
+
+        return (currentResource >= defender.GetCost());
+    }
+
 
     //Loops to all spawned defenders to check if the selected pos is available
     private bool IsSquareEmpty(Vector2 snappedClick)

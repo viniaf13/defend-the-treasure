@@ -32,10 +32,11 @@ public class ResourceDisplay : MonoBehaviour
             resources -= amount;
             UpdateDisplay();
         }
-        else
-        {
-            //TODO : More gold is required - w3 peasant voice
-        }
+    }
+
+    public int GetTotalResources()
+    {
+        return resources;
     }
 
 }

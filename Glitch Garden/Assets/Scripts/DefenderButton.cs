@@ -7,7 +7,7 @@ public class DefenderButton : MonoBehaviour
     [SerializeField] Defender defenderPrefab = default;
     [SerializeField] Color32 unselectedColor = new Color32(87, 56, 56, 255);
 
-    //Highlight the button selected
+    //Highlight the defender selected ans sets it on defender spawner
     private void OnMouseDown()
     {
         DefenderButton[] buttons = FindObjectsOfType<DefenderButton>();

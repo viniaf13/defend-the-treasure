@@ -12,4 +12,15 @@ public class Defender : MonoBehaviour
     {
         Instantiate(projectile, firePos.transform.position, Quaternion.identity);
     }
+
+    public int GetCost()
+    {
+        return resourceCost;
+    }
+
+    //Only for Sunny
+    public void GenerateResources(int amount)
+    {
+        FindObjectOfType<ResourceDisplay>().AddResources(amount);
+    }
 }
