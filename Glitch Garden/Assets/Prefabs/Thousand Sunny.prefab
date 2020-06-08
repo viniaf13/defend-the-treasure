@@ -175,6 +175,7 @@ GameObject:
   - component: {fileID: 4701621751707938945}
   - component: {fileID: 4701621751707938944}
   - component: {fileID: 2685120156879440201}
+  - component: {fileID: 333317797205894307}
   m_Layer: 0
   m_Name: Thousand Sunny
   m_TagString: Untagged
@@ -284,6 +285,32 @@ MonoBehaviour:
   firePos: {fileID: 0}
   resourceCost: 50
   isResourceGenerator: 1
+--- !u!61 &333317797205894307
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4701621751707938946}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.02963543, y: 0.035537362}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.3076334, y: 2.3300865}
+  m_EdgeRadius: 0
 --- !u!1 &4701621752991388628
 GameObject:
   m_ObjectHideFlags: 0
