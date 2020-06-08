@@ -283,6 +283,7 @@ MonoBehaviour:
   projectile: {fileID: 0}
   firePos: {fileID: 0}
   resourceCost: 50
+  isResourceGenerator: 1
 --- !u!1 &4701621752991388628
 GameObject:
   m_ObjectHideFlags: 0
