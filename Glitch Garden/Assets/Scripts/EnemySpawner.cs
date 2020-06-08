@@ -16,6 +16,8 @@ public class EnemySpawner : MonoBehaviour
             yield return new WaitForSeconds(Random.Range(minSpawnDelay, maxSpawnDelay));
             Enemy newEnemy = Instantiate
                 (enemyPrefab, transform.position, Quaternion.identity) as Enemy;
+
+            //Instantiate as child
             newEnemy.transform.parent = transform;
         }
         
