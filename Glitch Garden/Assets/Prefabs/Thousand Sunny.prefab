@@ -284,7 +284,7 @@ MonoBehaviour:
   projectile: {fileID: 0}
   firePos: {fileID: 0}
   resourceCost: 50
-  isResourceGenerator: 1
+  noAttack: 1
 --- !u!61 &333317797205894307
 BoxCollider2D:
   m_ObjectHideFlags: 0

@@ -7,7 +7,7 @@ public class Defender : MonoBehaviour
     [SerializeField] GameObject projectile = default;
     [SerializeField] GameObject firePos = default;
     [SerializeField] int resourceCost = 10;
-    [SerializeField] bool isResourceGenerator = false;
+    [SerializeField] bool noAttack = false;
 
 
     private EnemySpawner laneSpawner = default;
@@ -21,7 +21,7 @@ public class Defender : MonoBehaviour
 
     private void Update()
     {
-        if (isResourceGenerator) return;
+        if (noAttack) return;
 
         if (IsEnemyInLane())
         {
@@ -36,9 +36,12 @@ public class Defender : MonoBehaviour
 
     public void Fire()
     {
-        GameObject newProj = Instantiate
+        GameObject newProjectile = Instantiate
             (projectile, firePos.transform.position, Quaternion.identity) as GameObject;
-        newProj.transform.parent = transform;
+        newProjectile.transform.parent = transform;
+
+        Animation projectileAnimation = newProjectile.GetComponent<Animation>();
+        if (projectileAnimation != null) projectileAnimation.playAutomatically = true;
     }
 
     private bool IsEnemyInLane()
