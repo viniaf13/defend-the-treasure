@@ -1,0 +1,1124 @@
+fileFormatVersion: 2
+guid: c4024d093fc5f98448f4afaaa2bb5f22
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6604814065529635343
+    second: luffyballoon_t_0
+  - first:
+      213: -9007192055531504843
+    second: luffyballoon_t_1
+  - first:
+      213: -8924546744025456729
+    second: luffyballoon_t_2
+  - first:
+      213: 7833558524042234675
+    second: luffyballoon_t_3
+  - first:
+      213: -1467058458269037168
+    second: luffyballoon_t_4
+  - first:
+      213: 2787356831466543894
+    second: luffyballoon_t_5
+  - first:
+      213: 6454115739688834084
+    second: luffyballoon_t_6
+  - first:
+      213: -3150687392523600406
+    second: luffyballoon_t_7
+  - first:
+      213: -7562868259260613328
+    second: luffyballoon_t_8
+  - first:
+      213: -1691654237096835772
+    second: luffyballoon_t_9
+  - first:
+      213: -7589671904807362504
+    second: luffyballoon_t_10
+  - first:
+      213: -2997464514394590075
+    second: luffyballoon_t_11
+  - first:
+      213: 8996768133261649850
+    second: luffyballoon_t_12
+  - first:
+      213: -5852411944191176734
+    second: luffyballoon_t_13
+  - first:
+      213: -10261101457556172
+    second: luffyballoon_t_14
+  - first:
+      213: 5879558195639064333
+    second: luffyballoon_t_15
+  - first:
+      213: 443300154407562445
+    second: luffyballoon_t_16
+  - first:
+      213: 8075602178092091981
+    second: luffyballoon_t_17
+  - first:
+      213: -1594355326835677079
+    second: luffyballoon_t_18
+  - first:
+      213: 8291848004045111870
+    second: luffyballoon_t_19
+  - first:
+      213: -904736286052264271
+    second: luffyballoon_t_20
+  - first:
+      213: 2191119761023954557
+    second: luffyballoon_t_21
+  - first:
+      213: 6700797477438097432
+    second: luffyballoon_t_22
+  - first:
+      213: 1728318526652847306
+    second: luffyballoon_t_23
+  - first:
+      213: -2459688599780994768
+    second: luffyballoon_t_24
+  - first:
+      213: -8406712696198229157
+    second: luffyballoon_t_25
+  - first:
+      213: -6458067683764705363
+    second: luffyballoon_t_26
+  - first:
+      213: 8478523934905989718
+    second: luffyballoon_t_27
+  - first:
+      213: 58762385027161533
+    second: luffyballoon_t_28
+  - first:
+      213: -3183984173210628705
+    second: luffyballoon_t_29
+  - first:
+      213: 3714945862853228102
+    second: luffyballoon_t_30
+  - first:
+      213: 3807946607442091537
+    second: luffyballoon_t_31
+  - first:
+      213: 4993687964763976758
+    second: luffyballoon_t_32
+  - first:
+      213: 5898901793103298949
+    second: luffyballoon_t_33
+  - first:
+      213: -3839185391171552551
+    second: luffyballoon_t_34
+  - first:
+      213: -1266916162286720525
+    second: luffyballoon_t_35
+  - first:
+      213: 4419476835877822310
+    second: luffyballoon_t_36
+  - first:
+      213: 4787513316934322005
+    second: luffyballoon_t_37
+  - first:
+      213: -9036178253571622541
+    second: luffyballoon_t_38
+  - first:
+      213: -5432037069132275496
+    second: luffyballoon_t_39
+  - first:
+      213: -3671686818257682219
+    second: luffyballoon_t_40
+  - first:
+      213: -1513281983501581787
+    second: luffyballoon_t_41
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: luffyballoon_t_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 308
+        width: 41
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f02c567166309ab50800000000000000
+      internalID: 6604814065529635343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyballoon_t_1
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 308
+        width: 51
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53bf2523c86000380800000000000000
+      internalID: -9007192055531504843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyballoon_t_2
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 307
+        width: 55
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7af5ef44504a52480800000000000000
+      internalID: -8924546744025456729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyballoon_t_3
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 314
+        width: 61
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33b45c049f366bc60800000000000000
+      internalID: 7833558524042234675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyballoon_t_4
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 308
+        width: 68
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09d4422ea16f3abe0800000000000000
+      internalID: -1467058458269037168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyballoon_t_5
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 308
+        width: 68
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61b52d9254eaea620800000000000000
+      internalID: 2787356831466543894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyballoon_t_6
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 308
+        width: 70
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4241963e110a19950800000000000000
+      internalID: 6454115739688834084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyballoon_t_7
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 314
+        width: 61
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aed345272828644d0800000000000000
+      internalID: -3150687392523600406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyballoon_t_8
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 313
+        width: 55
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03db1b3536b4b0790800000000000000
+      internalID: -7562868259260613328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyballoon_t_9
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 311
+        width: 50
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4450f032f690688e0800000000000000
+      internalID: -1691654237096835772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyballoon_t_10
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 212
+        width: 64
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 830e1384d911ca690800000000000000
+      internalID: -7589671904807362504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyballoon_t_11
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 209
+        width: 64
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 584fba8c7edd666d0800000000000000
+      internalID: -2997464514394590075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyballoon_t_12
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 217
+        width: 72
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab76d9543f0fadc70800000000000000
+      internalID: 8996768133261649850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyballoon_t_13
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 207
+        width: 80
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ef4b3b185e08cea0800000000000000
+      internalID: -5852411944191176734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyballoon_t_14
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 207
+        width: 74
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43d3e94259b8bdff0800000000000000
+      internalID: -10261101457556172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyballoon_t_15
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 207
+        width: 68
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d079d471703689150800000000000000
+      internalID: 5879558195639064333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyballoon_t_16
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 207
+        width: 72
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcca658442be62600800000000000000
+      internalID: 443300154407562445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyballoon_t_17
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 133
+        width: 43
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4acc84056d421070800000000000000
+      internalID: 8075602178092091981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyballoon_t_18
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 133
+        width: 52
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 968253a0746bfd9e0800000000000000
+      internalID: -1594355326835677079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyballoon_t_19
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 133
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3204acd3df821370800000000000000
+      internalID: 8291848004045111870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyballoon_t_20
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 133
+        width: 60
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b6d27e242bb173f0800000000000000
+      internalID: -904736286052264271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyballoon_t_21
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 134
+        width: 48
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7eeb2840db686e10800000000000000
+      internalID: 2191119761023954557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyballoon_t_22
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 136
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 818088aadc30efc50800000000000000
+      internalID: 6700797477438097432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyballoon_t_23
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 129
+        width: 46
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac49edffa883cf710800000000000000
+      internalID: 1728318526652847306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyballoon_t_24
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 129
+        width: 41
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 031d9ff104e6dddd0800000000000000
+      internalID: -2459688599780994768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyballoon_t_25
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 129
+        width: 48
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b53965ee75b555b80800000000000000
+      internalID: -8406712696198229157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyballoon_t_26
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 125
+        width: 46
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da766cd68a55066a0800000000000000
+      internalID: -6458067683764705363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyballoon_t_27
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 117
+        width: 58
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65af7bff894c9a570800000000000000
+      internalID: 8478523934905989718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyballoon_t_28
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 117
+        width: 49
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbdd2bde314c0d000800000000000000
+      internalID: 58762385027161533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyballoon_t_29
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 122
+        width: 46
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9d8051934730d3d0800000000000000
+      internalID: -3183984173210628705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyballoon_t_30
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 122
+        width: 40
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6467c2364932e8330800000000000000
+      internalID: 3714945862853228102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyballoon_t_31
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 122
+        width: 47
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11e5d3c934b88d430800000000000000
+      internalID: 3807946607442091537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyballoon_t_32
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 35
+        width: 65
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63476ea0fb42d4540800000000000000
+      internalID: 4993687964763976758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyballoon_t_33
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 35
+        width: 65
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58146d65deb1dd150800000000000000
+      internalID: 5898901793103298949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyballoon_t_34
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 35
+        width: 51
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dab9544a3978bac0800000000000000
+      internalID: -3839185391171552551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyballoon_t_35
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 35
+        width: 44
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f9e2ba76720b6ee0800000000000000
+      internalID: -1266916162286720525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyballoon_t_36
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 35
+        width: 53
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66f909f44c2255d30800000000000000
+      internalID: 4419476835877822310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyballoon_t_37
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 39
+        width: 50
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55782551ff9a07240800000000000000
+      internalID: 4787513316934322005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyballoon_t_38
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 30
+        width: 52
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 379f0cc01cb099280800000000000000
+      internalID: -9036178253571622541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyballoon_t_39
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 30
+        width: 48
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d0ed97d0178d94b0800000000000000
+      internalID: -5432037069132275496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyballoon_t_40
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 30
+        width: 45
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d0444fca4c8b0dc0800000000000000
+      internalID: -3671686818257682219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyballoon_t_41
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 30
+        width: 46
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 522c360cd0ebffae0800000000000000
+      internalID: -1513281983501581787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
