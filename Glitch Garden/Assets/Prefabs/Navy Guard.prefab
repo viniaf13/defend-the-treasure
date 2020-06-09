@@ -14,8 +14,9 @@ GameObject:
   - component: {fileID: 1391547333553366969}
   - component: {fileID: 1391547333553366968}
   - component: {fileID: 1391547333709561945}
+  - component: {fileID: -1680328909329770265}
   m_Layer: 0
-  m_Name: Navy Guard 2.0
+  m_Name: Navy Guard
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -113,10 +114,10 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.05266951, y: 0}
+  m_Offset: {x: 0.0018995255, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -127,8 +128,20 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.324661, y: 0.47}
+  m_Size: {x: 0.42620096, y: 0.47}
   m_EdgeRadius: 0
+--- !u!114 &-1680328909329770265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 871884958005149099}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5423020838e87384195dfe5670c36338, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1807704987573378780
 GameObject:
   m_ObjectHideFlags: 0

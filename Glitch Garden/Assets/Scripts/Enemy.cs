@@ -6,6 +6,7 @@ public class Enemy : MonoBehaviour
 {
     [Range(0f,2f)][SerializeField] float moveSpeed = 1f;
 
+    private GameObject currentTarget;
     // Update is called once per frame
     void Update()
     {
@@ -15,5 +16,11 @@ public class Enemy : MonoBehaviour
     public void SetMovementSpeed(float newSpeed)
     {
         moveSpeed = newSpeed;
+    }
+
+    public void Attack(GameObject target)
+    {
+        GetComponent<Animator>().SetBool("isAttacking", true);
+        currentTarget = target;
     }
 }
