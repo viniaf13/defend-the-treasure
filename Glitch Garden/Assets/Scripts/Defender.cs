@@ -46,7 +46,17 @@ public class Defender : MonoBehaviour
 
     private bool IsEnemyInLane()
     {
-        return laneSpawner.transform.childCount > 0;
+        if (laneSpawner.transform.childCount > 0)
+        {
+            foreach (Transform child in laneSpawner.transform)
+            {
+                if (child.transform.position.x > transform.position.x)
+                {
+                    return true;
+                }
+            }
+        }
+        return false;
     }
 
     private void SetLaneSpawner()
