@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Deflate
+  m_Name: Luffy Inflate
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -20,19 +20,19 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: 2787356831466543894, guid: c4024d093fc5f98448f4afaaa2bb5f22,
+      value: {fileID: 6604814065529635343, guid: c4024d093fc5f98448f4afaaa2bb5f22,
         type: 3}
     - time: 0.16666667
-      value: {fileID: 6454115739688834084, guid: c4024d093fc5f98448f4afaaa2bb5f22,
+      value: {fileID: -9007192055531504843, guid: c4024d093fc5f98448f4afaaa2bb5f22,
         type: 3}
     - time: 0.33333334
-      value: {fileID: -3150687392523600406, guid: c4024d093fc5f98448f4afaaa2bb5f22,
+      value: {fileID: -8924546744025456729, guid: c4024d093fc5f98448f4afaaa2bb5f22,
         type: 3}
     - time: 0.5
-      value: {fileID: -7562868259260613328, guid: c4024d093fc5f98448f4afaaa2bb5f22,
+      value: {fileID: 7833558524042234675, guid: c4024d093fc5f98448f4afaaa2bb5f22,
         type: 3}
     - time: 0.6666667
-      value: {fileID: -1691654237096835772, guid: c4024d093fc5f98448f4afaaa2bb5f22,
+      value: {fileID: -1467058458269037168, guid: c4024d093fc5f98448f4afaaa2bb5f22,
         type: 3}
     attribute: m_Sprite
     path: Body
@@ -53,11 +53,11 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: 2787356831466543894, guid: c4024d093fc5f98448f4afaaa2bb5f22, type: 3}
-    - {fileID: 6454115739688834084, guid: c4024d093fc5f98448f4afaaa2bb5f22, type: 3}
-    - {fileID: -3150687392523600406, guid: c4024d093fc5f98448f4afaaa2bb5f22, type: 3}
-    - {fileID: -7562868259260613328, guid: c4024d093fc5f98448f4afaaa2bb5f22, type: 3}
-    - {fileID: -1691654237096835772, guid: c4024d093fc5f98448f4afaaa2bb5f22, type: 3}
+    - {fileID: 6604814065529635343, guid: c4024d093fc5f98448f4afaaa2bb5f22, type: 3}
+    - {fileID: -9007192055531504843, guid: c4024d093fc5f98448f4afaaa2bb5f22, type: 3}
+    - {fileID: -8924546744025456729, guid: c4024d093fc5f98448f4afaaa2bb5f22, type: 3}
+    - {fileID: 7833558524042234675, guid: c4024d093fc5f98448f4afaaa2bb5f22, type: 3}
+    - {fileID: -1467058458269037168, guid: c4024d093fc5f98448f4afaaa2bb5f22, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}

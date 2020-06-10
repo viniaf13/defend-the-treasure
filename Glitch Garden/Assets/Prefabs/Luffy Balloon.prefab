@@ -108,8 +108,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e289c0fe8d5564443acb0dfb30252d0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  characterHealth: 200
-  deathDelay: 1
+  characterHealth: 180
+  deathDelay: 2
 --- !u!1 &1419140825523591979
 GameObject:
   m_ObjectHideFlags: 0
