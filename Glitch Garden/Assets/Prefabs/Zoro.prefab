@@ -110,7 +110,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterHealth: 80
-  deathDelay: 1
+  deathDelay: 1.5
 --- !u!1 &4790981366588878246
 GameObject:
   m_ObjectHideFlags: 0
