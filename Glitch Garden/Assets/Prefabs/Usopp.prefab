@@ -125,6 +125,7 @@ GameObject:
   - component: {fileID: 956478137849361669}
   - component: {fileID: 2104022439}
   - component: {fileID: 30061321347129705}
+  - component: {fileID: -1971007827515306043}
   m_Layer: 0
   m_Name: Usopp
   m_TagString: Untagged
@@ -209,3 +210,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.9497463, y: 0.95877576}
   m_EdgeRadius: 0
+--- !u!114 &-1971007827515306043
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 956478137849361668}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e289c0fe8d5564443acb0dfb30252d0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterHealth: 40
+  deathDelay: 1

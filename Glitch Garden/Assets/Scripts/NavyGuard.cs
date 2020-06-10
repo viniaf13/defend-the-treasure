@@ -8,7 +8,7 @@ public class NavyGuard : MonoBehaviour
     {
         if (other.gameObject.GetComponent<Defender>())
         {
-            GetComponent<Enemy>().Attack(other.gameObject);
+            GetComponent<Enemy>().AttackMode(other.gameObject);
         }
     }
 }
