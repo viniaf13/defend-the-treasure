@@ -30,12 +30,11 @@ public class DefenderSpawner : MonoBehaviour
         {
             SpawnDefender(snappedClick);
         }
-
     }
 
     private void SpawnDefender(Vector2 defenderPosition)
     { 
-        Defender newDefender = Instantiate(defender, defenderPosition, Quaternion.identity) as Defender;
+        Instantiate(defender, defenderPosition, Quaternion.identity);
         resourcePool.SpendResources(defender.GetCost());
     }
 

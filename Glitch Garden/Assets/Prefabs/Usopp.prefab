@@ -223,4 +223,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterHealth: 40
-  deathDelay: 1
+  deathDelay: 1.5

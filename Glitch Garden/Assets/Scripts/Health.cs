@@ -13,7 +13,7 @@ public class Health : MonoBehaviour
     private IEnumerator Die()
     {
         Animator animator = GetComponent<Animator>();
-        if (animator != null)   animator.SetTrigger("Death");
+        if (animator != null)   animator.SetTrigger("isDead");
 
         yield return new WaitForSeconds(deathDelay);
         Destroy(gameObject);
