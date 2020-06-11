@@ -44,6 +44,7 @@ public class Defender : MonoBehaviour
         if (projectileAnimation != null) projectileAnimation.playAutomatically = true;
     }
 
+    //Check if theres an enemy in front of the attacker
     private bool IsEnemyInLane()
     {
         if (laneSpawner.transform.childCount > 0)

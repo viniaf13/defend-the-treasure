@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NavyGuard : MonoBehaviour
+public class CommonAttacker : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D other)
     {
