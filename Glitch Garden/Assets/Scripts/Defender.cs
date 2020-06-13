@@ -39,9 +39,6 @@ public class Defender : MonoBehaviour
         GameObject newProjectile = Instantiate
             (projectile, firePos.transform.position, Quaternion.identity) as GameObject;
         newProjectile.transform.parent = transform;
-
-        Animation projectileAnimation = newProjectile.GetComponent<Animation>();
-        if (projectileAnimation != null) projectileAnimation.playAutomatically = true;
     }
 
     //Check if theres an enemy in front of the attacker

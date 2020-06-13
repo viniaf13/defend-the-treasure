@@ -3,7 +3,10 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Attack Defender
+  - Resource Defender
+  - Block Defender
   layers:
   - Default
   - TransparentFX
@@ -46,4 +49,7 @@ TagManager:
     locked: 0
   - name: Characters
     uniqueID: 1010750907
+    locked: 0
+  - name: Enemies
+    uniqueID: 2785548539
     locked: 0
