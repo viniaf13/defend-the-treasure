@@ -7,6 +7,7 @@ TagManager:
   - Attack Defender
   - Resource Defender
   - Block Defender
+  - Lose Collider
   layers:
   - Default
   - TransparentFX
