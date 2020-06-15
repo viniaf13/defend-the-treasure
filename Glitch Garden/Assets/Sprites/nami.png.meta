@@ -1,0 +1,1064 @@
+fileFormatVersion: 2
+guid: 83c913fe59a8a1946a9240058cf3c623
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3016696668949872317
+    second: nami_0
+  - first:
+      213: -1355016278209258051
+    second: nami_1
+  - first:
+      213: -6615421377150792660
+    second: nami_2
+  - first:
+      213: 7583795090838090611
+    second: nami_3
+  - first:
+      213: 4187968077556034359
+    second: nami_4
+  - first:
+      213: -2971351202633664564
+    second: nami_5
+  - first:
+      213: -1979317685095905196
+    second: nami_6
+  - first:
+      213: 6676410228072742751
+    second: nami_7
+  - first:
+      213: 650556643706714824
+    second: nami_8
+  - first:
+      213: 6323731553385991648
+    second: nami_9
+  - first:
+      213: 2647614019555053298
+    second: nami_10
+  - first:
+      213: 2581604133337009321
+    second: nami_11
+  - first:
+      213: -1733513353366410899
+    second: nami_12
+  - first:
+      213: -7656858702525890986
+    second: nami_13
+  - first:
+      213: -5555459913325994826
+    second: nami_14
+  - first:
+      213: -7366457364392600420
+    second: nami_15
+  - first:
+      213: 4902661590423815214
+    second: nami_16
+  - first:
+      213: -7338605112234268890
+    second: nami_17
+  - first:
+      213: -500122768507459809
+    second: nami_18
+  - first:
+      213: -1104531315848094101
+    second: nami_19
+  - first:
+      213: 513791225696499624
+    second: nami_20
+  - first:
+      213: 6479482524151366051
+    second: nami_21
+  - first:
+      213: 1160455041798677661
+    second: nami_22
+  - first:
+      213: 1808039817907177664
+    second: nami_23
+  - first:
+      213: -4881372250468627228
+    second: nami_24
+  - first:
+      213: 484053815009202739
+    second: nami_25
+  - first:
+      213: 1704402364322722477
+    second: nami_26
+  - first:
+      213: -59009961947240072
+    second: nami_27
+  - first:
+      213: -8890026371002539038
+    second: nami_28
+  - first:
+      213: -7813227229939517970
+    second: nami_29
+  - first:
+      213: 5984925809556115216
+    second: nami_30
+  - first:
+      213: -8570327461397412361
+    second: nami_31
+  - first:
+      213: -5526908916320989026
+    second: nami_32
+  - first:
+      213: -6724840248376338535
+    second: nami_33
+  - first:
+      213: 8402919050789871773
+    second: nami_34
+  - first:
+      213: 2053893619702730364
+    second: nami_35
+  - first:
+      213: -584654708143985086
+    second: nami_36
+  - first:
+      213: -8331554168962560088
+    second: nami_37
+  - first:
+      213: 1859486883623603358
+    second: nami_38
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: nami_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 389
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 341832cdc5a8226d0800000000000000
+      internalID: -3016696668949872317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nami_1
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 394
+        width: 164
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbd1778cfd3023de0800000000000000
+      internalID: -1355016278209258051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nami_2
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 342
+        width: 43
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2cc667be4d4134a0800000000000000
+      internalID: -6615421377150792660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nami_3
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 341
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37371c6547d0f3960800000000000000
+      internalID: 7583795090838090611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nami_4
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 341
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73b276917c6ae1a30800000000000000
+      internalID: 4187968077556034359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nami_5
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 341
+        width: 44
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc73718f2d3a3c6d0800000000000000
+      internalID: -2971351202633664564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nami_6
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 342
+        width: 42
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 458c5326d0d0884e0800000000000000
+      internalID: -1979317685095905196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nami_7
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 342
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5f7f03babf57ac50800000000000000
+      internalID: 6676410228072742751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nami_8
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 277
+        width: 31
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cab86612dd370900800000000000000
+      internalID: 650556643706714824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nami_9
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 277
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ed408ed75862c750800000000000000
+      internalID: 6323731553385991648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nami_10
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 277
+        width: 25
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fe4ce15ce63eb420800000000000000
+      internalID: 2647614019555053298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nami_11
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 277
+        width: 31
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ac8b360843b3d320800000000000000
+      internalID: 2581604133337009321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nami_12
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 277
+        width: 33
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d69e2372ac251f7e0800000000000000
+      internalID: -1733513353366410899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nami_13
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 277
+        width: 31
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65ef59ce39f5db590800000000000000
+      internalID: -7656858702525890986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nami_14
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 277
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bc184694aa07e2b0800000000000000
+      internalID: -5555459913325994826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nami_15
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 221
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9c91566e0615c990800000000000000
+      internalID: -7366457364392600420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nami_16
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 221
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e24c927bdb0c90440800000000000000
+      internalID: 4902661590423815214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nami_17
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 221
+        width: 31
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62729623889082a90800000000000000
+      internalID: -7338605112234268890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nami_18
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 221
+        width: 31
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f172707edf43f09f0800000000000000
+      internalID: -500122768507459809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nami_19
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 221
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6e549bce9aeba0f0800000000000000
+      internalID: -1104531315848094101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nami_20
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 221
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a73a58c56a512700800000000000000
+      internalID: 513791225696499624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nami_21
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 222
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a1c464a60fbbe950800000000000000
+      internalID: 6479482524151366051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nami_22
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 222
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d94a83056b3ca1010800000000000000
+      internalID: 1160455041798677661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nami_23
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 163
+        width: 33
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c88e1e82a2771910800000000000000
+      internalID: 1808039817907177664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nami_24
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 163
+        width: 26
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ec4e520dc1e14cb0800000000000000
+      internalID: -4881372250468627228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nami_25
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 163
+        width: 25
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 332dbcf4164b7b600800000000000000
+      internalID: 484053815009202739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nami_26
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 162
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da2bac78be047a710800000000000000
+      internalID: 1704402364322722477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nami_27
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 162
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 879ece390ca5e2ff0800000000000000
+      internalID: -59009961947240072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nami_28
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 163
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e3e980fd1840a480800000000000000
+      internalID: -8890026371002539038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nami_29
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 98
+        width: 20
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee5bb0a0b37d19390800000000000000
+      internalID: -7813227229939517970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nami_30
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 98
+        width: 20
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01fc8a5705abe0350800000000000000
+      internalID: 5984925809556115216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nami_31
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 98
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f5c1a6d494101980800000000000000
+      internalID: -8570327461397412361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nami_32
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 98
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e909fb89f997c43b0800000000000000
+      internalID: -5526908916320989026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nami_33
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 68
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99757408c619ca2a0800000000000000
+      internalID: -6724840248376338535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nami_34
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 68
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9061ba2b5a2d9470800000000000000
+      internalID: 8402919050789871773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nami_35
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 10
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7e82d87d55e08c10800000000000000
+      internalID: 2053893619702730364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nami_36
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 10
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24e61dcf3a3e2e7f0800000000000000
+      internalID: -584654708143985086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nami_37
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 10
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8afcf0430af506c80800000000000000
+      internalID: -8331554168962560088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nami_38
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 10
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9c02eaf7793ec910800000000000000
+      internalID: 1859486883623603358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
