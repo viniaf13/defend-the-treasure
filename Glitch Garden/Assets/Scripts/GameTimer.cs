@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class GameTimer : MonoBehaviour
 {
     [SerializeField] float levelTime = 10f;
-    private bool isLevelFinished = false;
+    private bool isSliderFinished = false;
 
     private Slider slider = default;
  
@@ -17,17 +17,14 @@ public class GameTimer : MonoBehaviour
 
     void Update()
     {
-        slider.value = Time.timeSinceLevelLoad / levelTime;
+        if (isSliderFinished) return; 
 
+        slider.value = Time.timeSinceLevelLoad / levelTime;
         if (slider.value == 1)
         {
-            isLevelFinished = true;
+            isSliderFinished = true;
+            FindObjectOfType<LevelController>().TimerFinished();
             slider.GetComponent<Animator>().SetBool("isLevelFinished", true);
         }
-    }
-
-    public bool IsLevelOver()
-    {
-        return isLevelFinished;
     }
 }

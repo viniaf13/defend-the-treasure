@@ -20,15 +20,7 @@ public class EnemySpawner : MonoBehaviour
             if (keepSpawning) SpawnEnemy();
         }
     }
-
-    private void Update()
-    {
-        if (gameTimer.IsLevelOver())
-        {
-            keepSpawning = false;
-        }
-    }
-
+   public void StopSpawning() { keepSpawning = false; }
     private void SpawnEnemy()
     {
         int enemyIndex = Random.Range(0, EnemyPrefabArray.Length);
