@@ -8,7 +8,36 @@ public class Lives : MonoBehaviour
 {
    public List<Transform> hearts = default;
 
-    private int heartNumber = default;
+   private int heartNumber = default;
+
+    private void Start()
+    {
+        foreach (Transform child in transform)
+        {
+            hearts.Add(child);
+        }
+        heartNumber = hearts.Count;
+    }
+
+    public void RemoveHeart()
+    {
+        if (heartNumber >= 0)
+        {
+            heartNumber--;
+            hearts[heartNumber].GetComponent<SpriteRenderer>().enabled = false;
+        }
+        if (heartNumber <= 0)
+        {
+            heartNumber--;
+            Lose();
+        }      
+    }
+
+    private void Lose()
+    {
+        FindObjectOfType<LevelLoader>().LoadGameOver();
+    }
+
 
     /* private void Awake()
      {
@@ -21,28 +50,4 @@ public class Lives : MonoBehaviour
              DontDestroyOnLoad(gameObject);
          }
      }*/
-
-    private void Start()
-    {
-        foreach (Transform child in transform)
-        {
-            hearts.Add(child);
-        }
-        heartNumber = hearts.Count - 1;
-    }
-
-    public void RemoveHeart()
-    {
-        hearts[heartNumber].GetComponent<SpriteRenderer>().enabled = false;
-        if (heartNumber <= 0)
-        {
-            Lose();
-        }
-        heartNumber--;
-    }
-
-    private void Lose()
-    {
-        FindObjectOfType<LevelLoader>().LoadGameOver();
-    }
 }

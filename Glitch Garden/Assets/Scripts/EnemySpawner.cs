@@ -9,12 +9,23 @@ public class EnemySpawner : MonoBehaviour
     [SerializeField] float maxSpawnDelay = 5f;
 
     private bool keepSpawning = true;
+    private GameTimer gameTimer = default;
     private IEnumerator Start()
     {
+        gameTimer = FindObjectOfType<GameTimer>();
+
         while (keepSpawning)
         {
             yield return new WaitForSeconds(Random.Range(minSpawnDelay, maxSpawnDelay));
-            SpawnEnemy();
+            if (keepSpawning) SpawnEnemy();
+        }
+    }
+
+    private void Update()
+    {
+        if (gameTimer.IsLevelOver())
+        {
+            keepSpawning = false;
         }
     }
 

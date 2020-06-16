@@ -10,5 +10,6 @@ public class LoseCollider : MonoBehaviour
         {
             FindObjectOfType<Lives>().RemoveHeart();
         }
+        Destroy(collision.gameObject, 2f);
     }
 }

@@ -11,17 +11,23 @@ public class Enemy : MonoBehaviour
     private GameObject currentTarget;
     private Animator animator;
 
+    private void Awake()
+    {
+        FindObjectOfType<LevelController>().EnemySpawned();
+    }
+    private void OnDestroy()
+    {
+        FindObjectOfType<LevelController>().EnemyKilled();
+    }
     private void Start()
     {
         animator = GetComponent<Animator>();
     }
-
     private void Update()
     {
         transform.Translate(Vector2.left * moveSpeed * Time.deltaTime);
         UpdateAnimationState();
     }
-
     private void UpdateAnimationState()
     {
         if (!currentTarget)
@@ -29,18 +35,15 @@ public class Enemy : MonoBehaviour
             animator.SetBool("isAttacking", false);
         }
     }
-
     public void SetMovementSpeed(float newSpeed)
     {
         moveSpeed = newSpeed;
     }
-
     public void AttackMode(GameObject target)
     {
        animator.SetBool("isAttacking", true);
         currentTarget = target;
     }
-
     public void StrikeTarget()
     {
         if (!currentTarget) return;
