@@ -7,7 +7,6 @@ using UnityEngine.SceneManagement;
 public class LevelLoader : MonoBehaviour
 {
     [SerializeField] float secondsOnSplashScreen = 3f;
-    [SerializeField] float switchLevelsDelay = 2f;
 
     private int currentSceneIndex;
 
@@ -15,7 +14,6 @@ public class LevelLoader : MonoBehaviour
     {
         SplashScreen = 0,
         StartMenu = 1,
-        GameOver = 2,
     }
 
     // Start is called before the first frame update
@@ -28,14 +26,26 @@ public class LevelLoader : MonoBehaviour
         }
     }
 
-    public void LoadGameOver()
-    {
-        StartCoroutine(LoadWithDelay(Levels.GameOver, switchLevelsDelay));
-    }
-
     public void LoadNextLevel()
     {
         SceneManager.LoadScene(currentSceneIndex + 1);
+    }
+
+    public void RestartLevel()
+    {
+        Time.timeScale = 1;
+        SceneManager.LoadScene(currentSceneIndex);
+    }
+
+    public void LoadMainMenu()
+    {
+        Time.timeScale = 1;
+        LoadLevel(Levels.StartMenu);
+    }
+
+    public void QuitGame()
+    {
+        Application.Quit();
     }
 
     private IEnumerator LoadWithDelay(Levels level, float delay)

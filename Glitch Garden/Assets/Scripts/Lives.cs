@@ -35,7 +35,7 @@ public class Lives : MonoBehaviour
 
     private void Lose()
     {
-        FindObjectOfType<LevelLoader>().LoadGameOver();
+        FindObjectOfType<LevelController>().HandleLoseCondition();
     }
 
 

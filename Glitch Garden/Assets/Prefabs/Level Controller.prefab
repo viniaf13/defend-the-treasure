@@ -61,6 +61,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   winLabel: {fileID: 0}
   winDelay: 5
+  loseLabel: {fileID: 0}
 --- !u!82 &58167208
 AudioSource:
   m_ObjectHideFlags: 0

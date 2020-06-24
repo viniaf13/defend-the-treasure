@@ -13,10 +13,12 @@ public class Enemy : MonoBehaviour
 
     private void Awake()
     {
+        if (FindObjectOfType<LevelController>() == null) return;
         FindObjectOfType<LevelController>().EnemySpawned();
     }
     private void OnDestroy()
     {
+        if (FindObjectOfType<LevelController>() == null) return;
         FindObjectOfType<LevelController>().EnemyKilled();
     }
     private void Start()
