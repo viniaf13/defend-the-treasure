@@ -9,6 +9,8 @@ public class LevelLoader : MonoBehaviour
     [SerializeField] float secondsOnSplashScreen = 3f;
     [SerializeField] float switchLevelsDelay = 2f;
 
+    private int currentSceneIndex;
+
     private enum Levels
     {
         SplashScreen = 0,
@@ -19,10 +21,21 @@ public class LevelLoader : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
         if (SceneManager.GetActiveScene().buildIndex == (int)Levels.SplashScreen)
         {
             StartCoroutine(LoadWithDelay(Levels.StartMenu, secondsOnSplashScreen));
         }
+    }
+
+    public void LoadGameOver()
+    {
+        StartCoroutine(LoadWithDelay(Levels.GameOver, switchLevelsDelay));
+    }
+
+    public void LoadNextLevel()
+    {
+        SceneManager.LoadScene(currentSceneIndex + 1);
     }
 
     private IEnumerator LoadWithDelay(Levels level, float delay)
@@ -31,15 +44,8 @@ public class LevelLoader : MonoBehaviour
         LoadLevel(level);
     }
 
-    public void LoadGameOver()
-    {
-        StartCoroutine(LoadWithDelay(Levels.GameOver, switchLevelsDelay));
-    }
-
     private void LoadLevel(Levels level)
     {
         SceneManager.LoadScene((int) level);
-    }
-
-   
+    } 
 }

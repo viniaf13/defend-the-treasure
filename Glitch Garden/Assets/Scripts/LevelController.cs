@@ -4,8 +4,16 @@ using UnityEngine;
 
 public class LevelController : MonoBehaviour
 {
+    [SerializeField] GameObject winLabel = default;
+    [SerializeField] float winDelay = 5f;
+
     private int enemyNumber = 0;
     private bool isTimerOver = false;
+
+    private void Start()
+    {
+        winLabel.SetActive(false);
+    }
 
     public void EnemySpawned() { enemyNumber++; }
 
@@ -14,7 +22,7 @@ public class LevelController : MonoBehaviour
         enemyNumber--;
         if (enemyNumber <= 0 && isTimerOver)
         {
-            GetComponent<LevelLoader>().LoadGameOver(); //TODO WIN SCREEN
+            StartCoroutine(HandleWinCondition());
         }
     }
     public void TimerFinished() { 
@@ -24,5 +32,13 @@ public class LevelController : MonoBehaviour
         {
             spawner.StopSpawning();
         }
+    }
+
+    private IEnumerator HandleWinCondition()
+    {
+        winLabel.SetActive(true);
+        GetComponent<AudioSource>().Play();
+        yield return new WaitForSeconds(winDelay);
+        GetComponent<LevelLoader>().LoadNextLevel();
     }
 }

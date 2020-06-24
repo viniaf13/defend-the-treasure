@@ -54,3 +54,6 @@ TagManager:
   - name: Enemies
     uniqueID: 2785548539
     locked: 0
+  - name: UI
+    uniqueID: 3568415001
+    locked: 0
