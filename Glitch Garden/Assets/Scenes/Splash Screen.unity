@@ -1407,7 +1407,7 @@ PrefabInstance:
     - target: {fileID: 5427942813130269322, guid: 7ac5c195f36d9834aa3874a7767b73f8,
         type: 3}
       propertyPath: secondsOnSplashScreen
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 5427942813130269323, guid: 7ac5c195f36d9834aa3874a7767b73f8,
         type: 3}
