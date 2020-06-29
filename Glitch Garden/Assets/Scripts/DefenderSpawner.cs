@@ -7,7 +7,8 @@ using UnityEngine.UIElements;
 public class DefenderSpawner : MonoBehaviour
 {
     private Defender defender = default;
-    //[SerializeField] List <Defender> defendersSpawned = default;
+    private GameObject defenderParent;
+    const string DEFENDER_PARENT_NAME = "Defenders";
 
     //Cached reference
     ResourceDisplay resourcePool = default;
@@ -15,6 +16,13 @@ public class DefenderSpawner : MonoBehaviour
     private void Start()
     {
         resourcePool = FindObjectOfType<ResourceDisplay>();
+        CreateDefenderParent();
+    }
+
+    private void CreateDefenderParent()
+    {
+        defenderParent = GameObject.Find(DEFENDER_PARENT_NAME);
+        if (!defenderParent) defenderParent = new GameObject(DEFENDER_PARENT_NAME);
     }
 
     private void OnMouseDown()
@@ -34,7 +42,8 @@ public class DefenderSpawner : MonoBehaviour
 
     private void SpawnDefender(Vector2 defenderPosition)
     { 
-        Instantiate(defender, defenderPosition, Quaternion.identity);
+        Defender newDefender = Instantiate(defender, defenderPosition, Quaternion.identity) as Defender;
+        newDefender.transform.parent = defenderParent.transform;
         resourcePool.SpendResources(defender.GetCost());
     }
 
