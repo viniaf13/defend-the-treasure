@@ -1140,7 +1140,7 @@ PrefabInstance:
         type: 3}
       propertyPath: soundtracks.Array.data[2]
       value: 
-      objectReference: {fileID: 8300000, guid: cd817c88143a00c4c97ea89009c81435, type: 3}
+      objectReference: {fileID: 8300000, guid: 0f076835eb26cb6479b57231c0169d10, type: 3}
     - target: {fileID: 1036207241585352965, guid: 8ee455916c200bc4aa20c185fcd9e6fc,
         type: 3}
       propertyPath: loseSound
