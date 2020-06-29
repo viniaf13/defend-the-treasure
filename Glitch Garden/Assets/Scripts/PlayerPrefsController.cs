@@ -32,7 +32,7 @@ public class PlayerPrefsController : MonoBehaviour
         }
         else
         {
-            Debug.LogWarning("Game difficulty is out of range!");
+            Debug.LogError("Game difficulty is out of range!");
         }
     }
 

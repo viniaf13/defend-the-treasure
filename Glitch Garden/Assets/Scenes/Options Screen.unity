@@ -449,7 +449,7 @@ MonoBehaviour:
   m_Direction: 0
   m_MinValue: 1
   m_MaxValue: 3
-  m_WholeNumbers: 0
+  m_WholeNumbers: 1
   m_Value: 2
   m_OnValueChanged:
     m_PersistentCalls:
@@ -1527,6 +1527,7 @@ MonoBehaviour:
   volumeSlider: {fileID: 1377519617}
   defaultVolume: 0.5
   difficultySlider: {fileID: 374539693}
+  difficultyText: {fileID: 554125700}
   defaultDifficulty: 2
 --- !u!4 &1328458731
 Transform:

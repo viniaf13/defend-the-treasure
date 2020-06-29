@@ -6,13 +6,15 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
     [Range(0f,2f)][SerializeField] float moveSpeed = 1f;
-    [SerializeField] float damage = 20f;
+    [SerializeField] float baseDamage = 20f;
 
     private GameObject currentTarget;
     private Animator animator;
+    [SerializeField] float damage;
 
     private void Awake()
     {
+        damage = baseDamage * PlayerPrefsController.GetGameDifficulty();
         if (FindObjectOfType<LevelController>() == null) return;
         FindObjectOfType<LevelController>().EnemySpawned();
     }

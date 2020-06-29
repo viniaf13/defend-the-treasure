@@ -5,10 +5,24 @@ using UnityEngine;
 
 public class Health : MonoBehaviour
 {
-    [SerializeField] float characterHealth = 100f;
+    [SerializeField] float baseHealth = 100f;
     [SerializeField] float deathDelay = 1f;
 
     private bool dead = false;
+    private float characterHealth;
+    
+    //Increases Enemy health based on game difficulty. Defenders are not affected
+    private void Awake()
+    {
+        if (GetComponent<Enemy>() != null)
+        {
+            characterHealth = baseHealth * PlayerPrefsController.GetGameDifficulty();
+        }
+        else
+        {
+            characterHealth = baseHealth;
+        }
+    }
 
     private IEnumerator Die()
     {

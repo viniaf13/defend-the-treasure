@@ -8,6 +8,7 @@ public class OptionsController : MonoBehaviour
     [SerializeField] Slider volumeSlider = default;
     [SerializeField] float defaultVolume = 0.5f;
     [SerializeField] Slider difficultySlider = default;
+    [SerializeField] Text difficultyText = default;
     [SerializeField] float defaultDifficulty = 1f;
 
     MusicPlayer musicPlayer;
@@ -15,6 +16,7 @@ public class OptionsController : MonoBehaviour
     void Start()
     {
         volumeSlider.value = PlayerPrefsController.GetMasterVolume();
+        difficultySlider.value = PlayerPrefsController.GetGameDifficulty();
         musicPlayer = FindObjectOfType<MusicPlayer>();
     }
 
@@ -28,15 +30,35 @@ public class OptionsController : MonoBehaviour
         {
             Debug.LogWarning("No music player found");
         }
+        UpdateDifficultyText();
     }
 
     public void SaveOptionPrefs()
     {
         PlayerPrefsController.SetMasterVolume(volumeSlider.value);
+        PlayerPrefsController.SetGameDifficulty(difficultySlider.value);
     }
 
     public void SetDefaults()
     {
         volumeSlider.value = defaultVolume;
+        difficultySlider.value = defaultDifficulty;
+    }
+
+    public void UpdateDifficultyText()
+    {
+        float diff = difficultySlider.value;
+        switch (diff)
+        {
+            case 1f:
+                difficultyText.text = "I'm afraid of games";
+                break;
+            case 2f:
+                difficultyText.text = "Normal";
+                break;
+            case 3f:
+                difficultyText.text = "King of the Pirates";
+                break;
+        }
     }
 }
