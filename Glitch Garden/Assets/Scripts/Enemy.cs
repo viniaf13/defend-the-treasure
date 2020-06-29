@@ -10,7 +10,7 @@ public class Enemy : MonoBehaviour
 
     private GameObject currentTarget;
     private Animator animator;
-    [SerializeField] float damage;
+    private float damage;
 
     private void Awake()
     {
