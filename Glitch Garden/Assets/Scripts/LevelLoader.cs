@@ -13,7 +13,8 @@ public class LevelLoader : MonoBehaviour
     private enum Levels
     {
         SplashScreen = 0,
-        StartMenu = 1,
+        OptionsMenu = 1,
+        StartMenu = 2,
     }
 
     // Start is called before the first frame update
@@ -41,6 +42,11 @@ public class LevelLoader : MonoBehaviour
     {
         Time.timeScale = 1;
         LoadLevel(Levels.StartMenu);
+    }
+
+    public void OptionsMenu()
+    {
+        LoadLevel(Levels.OptionsMenu);
     }
 
     public void QuitGame()
