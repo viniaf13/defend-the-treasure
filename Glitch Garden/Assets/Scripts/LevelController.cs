@@ -39,6 +39,7 @@ public class LevelController : MonoBehaviour
     public void HandleLoseCondition()
     {
         loseLabel.SetActive(true);
+        FindObjectOfType<MusicPlayer>().PlayLoserSound();
         Time.timeScale = 0;
     }
 
@@ -46,7 +47,10 @@ public class LevelController : MonoBehaviour
     {
         if (!winLabel) yield return true;
         winLabel.SetActive(true);
-        GetComponent<AudioSource>().Play();
+
+        var musicPlayer = FindObjectOfType<MusicPlayer>();
+        if (musicPlayer) musicPlayer.PlayWinnerSound();
+
         yield return new WaitForSeconds(winDelay);
         GetComponent<LevelLoader>().LoadNextLevel();
     }

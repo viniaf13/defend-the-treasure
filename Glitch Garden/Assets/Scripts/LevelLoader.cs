@@ -29,18 +29,22 @@ public class LevelLoader : MonoBehaviour
 
     public void LoadNextLevel()
     {
+        int currentLevel = currentSceneIndex + 1 - (int)Levels.StartMenu;
+        FindObjectOfType<MusicPlayer>().ChangeSoundtrack(currentLevel);
         SceneManager.LoadScene(currentSceneIndex + 1);
     }
 
     public void RestartLevel()
     {
         Time.timeScale = 1;
+        FindObjectOfType<MusicPlayer>().PlayCurrentSoundtrack();
         SceneManager.LoadScene(currentSceneIndex);
     }
 
     public void LoadMainMenu()
     {
         Time.timeScale = 1;
+        FindObjectOfType<MusicPlayer>().ChangeSoundtrack(0);
         LoadLevel(Levels.StartMenu);
     }
 
