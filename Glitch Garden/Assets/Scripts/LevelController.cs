@@ -39,7 +39,8 @@ public class LevelController : MonoBehaviour
     public void HandleLoseCondition()
     {
         loseLabel.SetActive(true);
-        FindObjectOfType<MusicPlayer>().PlayLoserSound();
+        var musicPlayer = FindObjectOfType<MusicPlayer>();
+        if (musicPlayer) musicPlayer.PlayLoserSound();
         Time.timeScale = 0;
     }
 
