@@ -9,6 +9,7 @@ public class Defender : MonoBehaviour
     [SerializeField] int resourceCost = 10;
     [SerializeField] bool noAttack = false;
 
+    const string CLOSE_FIRE_POS = "Kick";
 
     private EnemySpawner laneSpawner = default;
     Animator anim = default;
@@ -73,6 +74,11 @@ public class Defender : MonoBehaviour
     public int GetCost()
     {
         return resourceCost;
+    }
+
+    public bool IsDefenderMelee()
+    {
+        return firePos.name == CLOSE_FIRE_POS;
     }
 
     //Only for Sunny
