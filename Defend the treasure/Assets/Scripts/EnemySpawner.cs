@@ -12,18 +12,13 @@ public class EnemySpawner : MonoBehaviour
     private bool keepSpawning = true;
     private IEnumerator Start()
     {
-        StartCoroutine(InitialSpawnTime());
+        yield return new WaitForSeconds(initialSpawnDelay);
 
         while (keepSpawning)
         {
             yield return new WaitForSeconds(Random.Range(minSpawnDelay, maxSpawnDelay));
             if (keepSpawning) SpawnEnemy();
         }
-    }
-
-    private IEnumerator InitialSpawnTime()
-    {
-        yield return new WaitForSeconds(initialSpawnDelay);
     }
 
    public void StopSpawning() { keepSpawning = false; }
