@@ -7,12 +7,12 @@ public class EnemySpawner : MonoBehaviour
     [SerializeField] Enemy[] EnemyPrefabArray = default;
     [SerializeField] float minSpawnDelay = 1f;
     [SerializeField] float maxSpawnDelay = 5f;
+    [SerializeField] float initialSpawnDelay = 0f;
 
     private bool keepSpawning = true;
-    private GameTimer gameTimer = default;
     private IEnumerator Start()
     {
-        gameTimer = FindObjectOfType<GameTimer>();
+        StartCoroutine(InitialSpawnTime());
 
         while (keepSpawning)
         {
@@ -20,6 +20,12 @@ public class EnemySpawner : MonoBehaviour
             if (keepSpawning) SpawnEnemy();
         }
     }
+
+    private IEnumerator InitialSpawnTime()
+    {
+        yield return new WaitForSeconds(initialSpawnDelay);
+    }
+
    public void StopSpawning() { keepSpawning = false; }
     private void SpawnEnemy()
     {
