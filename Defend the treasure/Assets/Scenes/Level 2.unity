@@ -226,12 +226,17 @@ PrefabInstance:
     - target: {fileID: 7521253889650049012, guid: 982e6f2c74b0df244b59a4c8c0b042ec,
         type: 3}
       propertyPath: minSpawnDelay
-      value: 20
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7521253889650049012, guid: 982e6f2c74b0df244b59a4c8c0b042ec,
         type: 3}
       propertyPath: maxSpawnDelay
-      value: 21
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7521253889650049012, guid: 982e6f2c74b0df244b59a4c8c0b042ec,
+        type: 3}
+      propertyPath: initialSpawnDelay
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 7521253889650049013, guid: 982e6f2c74b0df244b59a4c8c0b042ec,
         type: 3}
@@ -383,7 +388,7 @@ PrefabInstance:
     - target: {fileID: 7521253889650049012, guid: 982e6f2c74b0df244b59a4c8c0b042ec,
         type: 3}
       propertyPath: maxSpawnDelay
-      value: 9
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 7521253889650049012, guid: 982e6f2c74b0df244b59a4c8c0b042ec,
         type: 3}
@@ -400,7 +405,7 @@ PrefabInstance:
     - target: {fileID: 7521253889650049012, guid: 982e6f2c74b0df244b59a4c8c0b042ec,
         type: 3}
       propertyPath: initialSpawnDelay
-      value: 15
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 7521253889650049013, guid: 982e6f2c74b0df244b59a4c8c0b042ec,
         type: 3}
@@ -598,17 +603,17 @@ PrefabInstance:
     - target: {fileID: 7521253889650049012, guid: 982e6f2c74b0df244b59a4c8c0b042ec,
         type: 3}
       propertyPath: maxSpawnDelay
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 7521253889650049012, guid: 982e6f2c74b0df244b59a4c8c0b042ec,
         type: 3}
       propertyPath: initialSpawnDelay
-      value: 15
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 7521253889650049012, guid: 982e6f2c74b0df244b59a4c8c0b042ec,
         type: 3}
       propertyPath: minSpawnDelay
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7521253889650049013, guid: 982e6f2c74b0df244b59a4c8c0b042ec,
         type: 3}
@@ -738,12 +743,17 @@ PrefabInstance:
     - target: {fileID: 7521253889650049012, guid: 982e6f2c74b0df244b59a4c8c0b042ec,
         type: 3}
       propertyPath: minSpawnDelay
-      value: 26
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7521253889650049012, guid: 982e6f2c74b0df244b59a4c8c0b042ec,
         type: 3}
       propertyPath: maxSpawnDelay
-      value: 27
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7521253889650049012, guid: 982e6f2c74b0df244b59a4c8c0b042ec,
+        type: 3}
+      propertyPath: initialSpawnDelay
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 7521253889650049013, guid: 982e6f2c74b0df244b59a4c8c0b042ec,
         type: 3}
@@ -970,7 +980,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1106733075, guid: fdebb8c65a0cd9b4a8614b8dea6bb2a7, type: 3}
       propertyPath: levelTime
-      value: 30
+      value: 45
       objectReference: {fileID: 0}
     - target: {fileID: 1122312289, guid: fdebb8c65a0cd9b4a8614b8dea6bb2a7, type: 3}
       propertyPath: m_AnchorMax.x
@@ -1114,6 +1124,11 @@ PrefabInstance:
       propertyPath: m_textInfo.wordCount
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 3681433401275271869, guid: fdebb8c65a0cd9b4a8614b8dea6bb2a7,
+        type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: 82a7fa66fea58ba458baa8b08df7581e, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fdebb8c65a0cd9b4a8614b8dea6bb2a7, type: 3}
 --- !u!1001 &2605611074088444939
