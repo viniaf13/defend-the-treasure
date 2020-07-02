@@ -1613,7 +1613,7 @@ GameObject:
   - component: {fileID: 849440323895165319}
   - component: {fileID: 7986512207715900053}
   m_Layer: 5
-  m_Name: TMP SubMeshUI [8-bit Arcade In SDF Material + LiberationSans SDF Atlas]
+  m_Name: Text TMP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

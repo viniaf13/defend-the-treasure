@@ -68,7 +68,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   projectile: {fileID: 0}
   firePos: {fileID: 0}
-  resourceCost: 125
+  resourceCost: 150
   noAttack: 0
 --- !u!61 &1419140824453474777
 BoxCollider2D:
@@ -108,7 +108,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e289c0fe8d5564443acb0dfb30252d0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  baseHealth: 100
+  baseHealth: 720
   deathDelay: 2
 --- !u!1 &1419140825523591979
 GameObject:

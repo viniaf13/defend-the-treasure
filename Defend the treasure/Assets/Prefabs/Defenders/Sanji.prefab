@@ -69,7 +69,7 @@ MonoBehaviour:
   projectile: {fileID: 1098098262139561153, guid: 75d5f9e1b79484244ac56a01297f5b15,
     type: 3}
   firePos: {fileID: 3045902865818676047}
-  resourceCost: 50
+  resourceCost: 120
   noAttack: 0
 --- !u!61 &3039916659203572436
 BoxCollider2D:
@@ -109,7 +109,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e289c0fe8d5564443acb0dfb30252d0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  baseHealth: 100
+  baseHealth: 180
   deathDelay: 1.5
 --- !u!1 &2811142582443286930
 GameObject:
