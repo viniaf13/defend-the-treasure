@@ -103,7 +103,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e289c0fe8d5564443acb0dfb30252d0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  baseHealth: 100
+  baseHealth: 110
   deathDelay: 1.25
 --- !u!61 &1391547333709561945
 BoxCollider2D:

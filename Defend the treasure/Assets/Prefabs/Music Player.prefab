@@ -146,8 +146,11 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 222377a30af60dd428e914f584bbe5c8, type: 3}
   - {fileID: 8300000, guid: 0a93e1928a4545d478be53f53f0ba792, type: 3}
   - {fileID: 8300000, guid: 8dab96e7002ceee4693aa172a880a5b0, type: 3}
-  - {fileID: 8300000, guid: 0a93e1928a4545d478be53f53f0ba792, type: 3}
   - {fileID: 8300000, guid: 222377a30af60dd428e914f584bbe5c8, type: 3}
+  - {fileID: 8300000, guid: 0a93e1928a4545d478be53f53f0ba792, type: 3}
+  - {fileID: 8300000, guid: 8dab96e7002ceee4693aa172a880a5b0, type: 3}
+  - {fileID: 8300000, guid: 222377a30af60dd428e914f584bbe5c8, type: 3}
+  - {fileID: 8300000, guid: 441cbc9d1eea79742bdfbcee660bd5ed, type: 3}
   - {fileID: 8300000, guid: 0f076835eb26cb6479b57231c0169d10, type: 3}
   loseSound: {fileID: 8300000, guid: 0ab194458dc252442a8c559e5852af32, type: 3}
   winSound: {fileID: 8300000, guid: 0a16530e643aaa34590f369edfb6ed2c, type: 3}
