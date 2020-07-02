@@ -38,11 +38,11 @@ public class PlayerPrefsController : MonoBehaviour
 
     public static float GetMasterVolume()
     {
-        return PlayerPrefs.GetFloat(MASTER_VOLUME_KEY);
+        return PlayerPrefs.GetFloat(MASTER_VOLUME_KEY, 0.5f);
     }
 
     public static float GetGameDifficulty()
     {
-        return PlayerPrefs.GetFloat(DIFFICULTY_KEY);
+        return PlayerPrefs.GetFloat(DIFFICULTY_KEY, 2f);
     }
 }

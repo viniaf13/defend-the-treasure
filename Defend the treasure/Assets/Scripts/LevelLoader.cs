@@ -23,6 +23,8 @@ public class LevelLoader : MonoBehaviour
         currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
         if (SceneManager.GetActiveScene().buildIndex == (int)Levels.SplashScreen)
         {
+            PlayerPrefsController.SetGameDifficulty(2f);
+            PlayerPrefsController.SetMasterVolume(0.5f);
             StartCoroutine(LoadWithDelay(Levels.StartMenu, secondsOnSplashScreen));
         }
     }
