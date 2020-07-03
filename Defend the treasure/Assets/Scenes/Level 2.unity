@@ -337,7 +337,7 @@ Transform:
   - {fileID: 758246536}
   - {fileID: 1832864472}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &595322980
 PrefabInstance:
@@ -608,7 +608,7 @@ PrefabInstance:
     - target: {fileID: 7521253889650049012, guid: 982e6f2c74b0df244b59a4c8c0b042ec,
         type: 3}
       propertyPath: initialSpawnDelay
-      value: 21
+      value: 24
       objectReference: {fileID: 0}
     - target: {fileID: 7521253889650049012, guid: 982e6f2c74b0df244b59a4c8c0b042ec,
         type: 3}
@@ -800,7 +800,7 @@ Transform:
   - {fileID: 6550841344659420678}
   - {fileID: 456545225486735259}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1731583510
 PrefabInstance:

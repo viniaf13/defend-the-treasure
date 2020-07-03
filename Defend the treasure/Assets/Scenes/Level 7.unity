@@ -394,12 +394,12 @@ PrefabInstance:
     - target: {fileID: 7521253889650049012, guid: 982e6f2c74b0df244b59a4c8c0b042ec,
         type: 3}
       propertyPath: minSpawnDelay
-      value: 15
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 7521253889650049012, guid: 982e6f2c74b0df244b59a4c8c0b042ec,
         type: 3}
       propertyPath: maxSpawnDelay
-      value: 16
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 7521253889650049012, guid: 982e6f2c74b0df244b59a4c8c0b042ec,
         type: 3}
@@ -1071,7 +1071,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1106733075, guid: fdebb8c65a0cd9b4a8614b8dea6bb2a7, type: 3}
       propertyPath: levelTime
-      value: 50
+      value: 55
       objectReference: {fileID: 0}
     - target: {fileID: 1122312289, guid: fdebb8c65a0cd9b4a8614b8dea6bb2a7, type: 3}
       propertyPath: m_AnchorMax.x
@@ -1083,7 +1083,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1850215464, guid: fdebb8c65a0cd9b4a8614b8dea6bb2a7, type: 3}
       propertyPath: resources
-      value: 150
+      value: 130
       objectReference: {fileID: 0}
     - target: {fileID: 1201632897050795672, guid: fdebb8c65a0cd9b4a8614b8dea6bb2a7,
         type: 3}

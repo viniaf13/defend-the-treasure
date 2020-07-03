@@ -1083,7 +1083,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1850215464, guid: fdebb8c65a0cd9b4a8614b8dea6bb2a7, type: 3}
       propertyPath: resources
-      value: 200
+      value: 130
       objectReference: {fileID: 0}
     - target: {fileID: 1201632897050795672, guid: fdebb8c65a0cd9b4a8614b8dea6bb2a7,
         type: 3}
