@@ -1181,12 +1181,12 @@ PrefabInstance:
     - target: {fileID: 3681433401275271869, guid: fdebb8c65a0cd9b4a8614b8dea6bb2a7,
         type: 3}
       propertyPath: m_text
-      value: Luffy use his body to protect his crew
+      value: Luffy uses his body to protect his crew
       objectReference: {fileID: 0}
     - target: {fileID: 3681433401275271869, guid: fdebb8c65a0cd9b4a8614b8dea6bb2a7,
         type: 3}
       propertyPath: m_textInfo.characterCount
-      value: 38
+      value: 39
       objectReference: {fileID: 0}
     - target: {fileID: 3681433401275271869, guid: fdebb8c65a0cd9b4a8614b8dea6bb2a7,
         type: 3}
